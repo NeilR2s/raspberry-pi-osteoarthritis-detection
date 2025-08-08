@@ -12,7 +12,7 @@
 - [Caveats and recommendations](#caveats-and-recommendations)
 
 ## Model details
-- **Research Conference:** LPU-Cavite Innovex 2025 (COESCA Research of the Year)
+- **Research Conference:** LPU-Cavite Innovex 2025 ([COESCA Research of the Year](https://www.facebook.com/share/p/1CUmTCvFXR/))
 - **Model Name:** tf-osteo
 - **Developer:** Neil Artus (*model training and inference*), Joshua Lawrence C. Contreras (*user interface*)
 - **Researchers:**  Joshua Lawrence C. Contreras, Hadji Luis L. Montealegre, Francis G. Yaeso
