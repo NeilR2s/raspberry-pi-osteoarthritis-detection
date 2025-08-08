@@ -12,7 +12,7 @@
 - [Caveats and recommendations](#caveats-and-recommendations)
 
 ## Model details
-
+- **Research Conference:** LPU-Cavite Innovex 2025 (COESCA Research of the Year)
 - **Model Name:** tf-osteo
 - **Developer:** Neil Artus (*model training and inference*), Joshua Lawrence C. Contreras (*user interface*)
 - **Researchers:**  Joshua Lawrence C. Contreras, Hadji Luis L. Montealegre, Francis G. Yaeso
@@ -28,7 +28,8 @@
 ### Primary intended uses
 - To serve as a cost-effective screening tool for early detection of knee osteoarthritis (OA), specifically focusing on Kellgren-Lawrence (KL) grades 0 to 3
 - To classify thermal images of knee joints into OA severity grades based on the KL grading system.
-- To be used by healthcare professionals (rheumatologists, orthopedic specialists) as an aid in OA screening and assessment, particularly in clinical settings like the ACC Orthopedic and Physical Therapy Clinic.
+- To be used by healthcare professionals (rheumatologists, orthopedic specialists) as an aid in OA screening and assessment, particularly in clinical settings like in Gentri Medical Center and Hospital.
+
 ### Primary intended users
 - Healthcare professionals specializing in osteoarthritis diagnosis and treatment.
 - Researchers in medical imaging and AI for healthcare.
@@ -45,7 +46,7 @@
 ### Relevant factors
 - Demographics: Age, sex, Body Mass Index (BMI) are known risk factors for KOA. The model's performance might vary across different demographic groups.
 - Environmental Conditions for IRT: Room temperature (target 22°C ±1°C), humidity (target constant), absence of direct sunlight, and patient resting time (target 20 min ± 3 min) are crucial for consistent thermal image acquisition. Deviations may affect image quality and model performance.
-- Image Acquisition: Angle of external foot rotation (target 15°) and Region of Interest (ROI) selection consistency. Variations in camera (FLIR Lepton Radiometric Camera Module positioning and ROI extraction can impact results.
+- Image Acquisition: Angle of external foot rotation (target 15°) and Region of Interest (ROI) selection consistency. Variations in camera (FLIR Lepton Radiometric Camera Module positioning and ROI extraction can impact results).
 
 ### Technical Factors 
 - Image resolution (224x224 input), thermal noise.
@@ -59,7 +60,7 @@
   
 ### Datasets
 Thermal images of knee joints from patients diagnosed with osteoarthritis.
-Source: ACC Orthopedic and Physical Therapy Clinic (Noveleta, Cavite City, Bacoor, Imus).
+Source: Gentri Medical Center and Hospital.
 **Training:** 1572 files belonging to 4 classes. **Validation:** 332 files belonging to 4 classes. **Test:** 332 files belonging to 4 classes.
 
 ### Motivation
